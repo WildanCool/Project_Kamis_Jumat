@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_kamis_jumat/projectKamis/project_kamis.dart';
+import 'package:project_kamis_jumat/projectJumat/home.dart';
+// import 'package:project_kamis_jumat/projectKamis/project_kamis.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: ProjectKamis()
+      home: ProjectJumat()
     );
   }
 }
